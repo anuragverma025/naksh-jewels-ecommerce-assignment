@@ -1,0 +1,19 @@
+/* src/index.css */
+:root {
+  --gold: #b08d57;
+  --dark: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* This creates the professional grid seen in your screenshot's "Collection" area */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 40px 0;
+}

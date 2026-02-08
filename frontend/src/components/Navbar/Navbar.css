@@ -1,0 +1,32 @@
+.navbar {
+  background: #ffffff;
+  border-bottom: 1px solid #eee;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #b08d57; /* Luxury Gold */
+  text-decoration: none;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  margin-left: 20px;
+  font-weight: 500;
+}
+.cart-badge {
+  background: #b08d57;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+}

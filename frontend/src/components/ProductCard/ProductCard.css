@@ -1,0 +1,34 @@
+/* src/components/ProductCard/ProductCard.css */
+.product-card {
+  border: 1px solid #eee;
+  padding: 15px;
+  text-align: center;
+  transition: 0.3s;
+  background: white;
+}
+
+.product-card:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.product-img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain; /* Prevents the stretching seen in your screenshot */
+  margin-bottom: 15px;
+}
+
+.add-to-cart-btn {
+  background: var(--dark);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.add-to-cart-btn:hover {
+  background: var(--gold);
+}
