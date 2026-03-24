@@ -19,6 +19,12 @@ app.get('/api/products', (req, res) => {
   res.status(200).json(products);
 });
 
+app.get('.test', async(req, res) => (
+  res.json({
+    msg: "test was successful"
+  })
+))
+
 // POST /api/cart (Validation middleware check)
 app.post('/api/cart', (req, res) => {
   const { productId, quantity } = req.body;
