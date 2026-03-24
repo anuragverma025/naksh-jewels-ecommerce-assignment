@@ -15,4 +15,4 @@ This project is fully Dockerized for a seamless evaluation experience. Please fo
 * **Frontend**: Open [http://localhost:3000](http://localhost:3000) to view the Jewelry Collection and Shopping Cart.
 * **Backend API**: The server runs on [http://localhost:5000](http://localhost:5000).
 
-> **Note**: If the backend API is unreachable due to local network restrictions, the application will automatically use a **fallback data mechanism** to ensure the jewelry cards and cart logic are still fully functional for your review..
+> **Note**: If the backend API is unreachable due to local network restrictions, the application will automatically use a **fallback data mechanism** to ensure the jewelry cards and cart logic are still fully functional for your review.
