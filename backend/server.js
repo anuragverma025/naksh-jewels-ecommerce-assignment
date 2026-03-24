@@ -19,7 +19,7 @@ app.get('/api/products', (req, res) => {
   res.status(200).json(products);
 });
 
-app.get('.test', async(req, res) => (
+app.get('/test', async(req, res) => (
   res.json({
     msg: "test was successful"
   })
